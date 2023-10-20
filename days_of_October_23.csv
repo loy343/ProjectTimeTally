@@ -1,4 +1,4 @@
-Day,Day of Week,Hours
+Day,Day_of_Week,Start,End,Hours
 1,Sunday
 2,Monday
 3,Tuesday

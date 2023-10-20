@@ -21,7 +21,7 @@ with open(output_file, 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     
     # Write the CSV header
-    csvwriter.writerow(['Day', 'Day of Week', 'Hours'])
+    csvwriter.writerow(['Day', 'Day_of_Week','Start', "End", 'Hours'])
     
     # Write the day and day of the week for each day in the month
     for day, day_of_week in days_in_month:
