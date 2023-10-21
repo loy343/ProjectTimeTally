@@ -1,5 +1,11 @@
 import datetime
 
+time_punch = (
+    ("start", ''),
+    ("end", ''),
+    ("hours", '')
+)
+#add time punch/calculate hours
 def hours():
     # Input start time in HH:MM format
     start_time_str = input("Enter the start time (HH:MM): ")

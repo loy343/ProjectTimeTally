@@ -25,6 +25,6 @@ with open(output_file, 'w', newline='') as csvfile:
     
     # Write the day and day of the week for each day in the month
     for day, day_of_week in days_in_month:
-        csvwriter.writerow([day, day_of_week])
+        csvwriter.writerow([day, day_of_week,"initiate","finish","time"])
 
 print(f"CSV file '{output_file}' created with days and their corresponding day of the week for the current month.")
