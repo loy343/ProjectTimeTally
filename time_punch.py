@@ -17,6 +17,7 @@ def hours():
     }
 
     # Input start time in HH:MM format
+    print(time_punch['day'])
     start_time_str = input("Enter the start time (HH:MM): ")
     start_time = datetime.datetime.strptime(start_time_str, '%H:%M')
     time_punch["start"] = start_time.strftime('%H:%M')

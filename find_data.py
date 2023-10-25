@@ -1,5 +1,8 @@
 import csv
 
+#finds missing data in csv and replace
+
+
 # Specify the input and output CSV file paths
 input_csv_path = 'days_of_October_23.csv'
 output_csv_path = 'output.csv'
