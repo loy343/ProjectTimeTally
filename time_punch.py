@@ -3,21 +3,23 @@ import datetime
 current_date = datetime.datetime.now()
 current_month = current_date.month
 
-
+def test(x,y):
+    print(x+y)
 
 #add time punch/calculate hours
-def hours():
+def hours(day,day_of_week):
+
 
     time_punch = {
-    "day": current_date.day,
+    "day": day,
     "month": current_month,
+    "Day_of_week": day_of_week,
     "start": 'time_start',
     "end": 'time_end',
     "hours": ''
     }
 
     # Input start time in HH:MM format
-    print(time_punch['day'])
     start_time_str = input("Enter the start time (HH:MM): ")
     start_time = datetime.datetime.strptime(start_time_str, '%H:%M')
     time_punch["start"] = start_time.strftime('%H:%M')
@@ -45,4 +47,3 @@ def hours():
 
 
 
-hours()
