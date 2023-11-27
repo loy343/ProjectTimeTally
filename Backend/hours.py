@@ -1,19 +1,3 @@
-# import calendar, datetime
-
-# year=2023
-
-
-# calendar.Calendar(firstweekday=0)
-# calendar.setfirstweekday(calendar.WEDNESDAY)
-
-# date = datetime.datetime.now()
-
-# print(date)
-# print(calendar.firstweekday())
-
-# print(calendar.month(2023, 10))
-
-
 import datetime
 
 # Initialize an empty dictionary to store hours worked by week
