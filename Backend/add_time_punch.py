@@ -6,8 +6,8 @@ from time_punch import hours
 
 
 # Specify the input and output CSV file paths
-input_csv_path = 'days_of_November_23.csv'
-output_csv_path = 'output.csv'
+input_csv_path = 'Backend/days_of_November_23.csv'
+output_csv_path = 'Backend/output.csv'
 
 # Specify the name of the column to check and update
 #['Day', 'Day_of_Week', 'Start', 'End', 'Hours']
