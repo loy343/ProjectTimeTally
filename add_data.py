@@ -2,7 +2,7 @@ import csv
 
 
 # Open the CSV file for reading
-with open('days_of_October_23.csv', mode='r') as csv_file:
+with open('days_of_November_23.csv', mode='r') as csv_file:
     csv_reader = csv.reader(csv_file)
 
 

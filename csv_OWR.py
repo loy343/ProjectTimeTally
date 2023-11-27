@@ -1,6 +1,6 @@
 import csv
 
-input_csv_path = 'days_of_October_23.csv'
+input_csv_path = 'days_of_November_23.csv'
 output_csv_path = 'output.csv'
 
 def process_csv(input_file_path, output_file_path, processing_function):
